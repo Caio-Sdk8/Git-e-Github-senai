@@ -101,8 +101,6 @@ h1 {
     justify-content: space-between;
 }
 
-.box_sobre_textos {}
-
 .box_sobre_textos span {
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
@@ -221,4 +219,42 @@ footer span {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #ffffff;
+}
+
+@media (max-width:420px) {
+    .container {
+        width: 80vw;
+    }
+    .container_banner {
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+    .fundo_banner {
+        height: 100%;
+        width: auto;
+    }
+    .box_conteudo {
+        top: 145px;
+        left: 35px;
+        align-items: center;
+    }
+    h1 {
+        width: 360px;
+        font-size: 62px;
+    }
+    .hr_banner {
+        width: 360px;
+    }
+    .box_conteudo span {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+    .icone_mouse {
+        width: 45px;
+    }
+    .espacamento_sobre {
+        justify-content: center;
+    }
+    .h2_sobre
 }
