@@ -232,7 +232,7 @@ footer span {
     }
     .fundo_banner {
         height: 100%;
-        width: auto;
+        width: 100%;
     }
     .box_conteudo {
         top: 145px;
@@ -284,5 +284,36 @@ footer span {
     .box_sobre_textos p {
         width: auto;
         text-align: justify;
+        margin-bottom: 50px;
+    }
+    .container_info {
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-around;
+    }
+    .box_endereco h2 {
+        width: unset;
+    }
+    .box_endereco {
+        width: 80vw;
+        padding: 50px 40px;
+        height: unset;
+    }
+    .box_endereco p {
+        margin-left: unset;
+    }
+    .endereco {
+        position: unset;
+        height: 800px;
+        justify-content: space-evenly;
+    }
+    .endereco img {
+        position: unset;
+        width: 80vw;
+        margin-bottom: 45px;
+    }
+    footer span {
+        width: 80vw;
+        text-align: center;
     }
 }
