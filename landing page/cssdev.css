@@ -245,6 +245,7 @@ footer span {
     }
     .hr_banner {
         width: 360px;
+        margin: 20px 0;
     }
     .box_conteudo span {
         font-size: 36px;
@@ -252,9 +253,36 @@ footer span {
     }
     .icone_mouse {
         width: 45px;
+        margin-top: 30px;
+    }
+    .container_sobre {
+        height: auto;
     }
     .espacamento_sobre {
-        justify-content: center;
+        align-items: center;
     }
-    .h2_sobre
+    .h2_sobre {
+        font-size: 52px;
+        margin: 50px 0;
+        font-weight: 400;
+    }
+    .box_sobre {
+        width: 100%;
+        flex-direction: column;
+    }
+    .img_box_sobre {
+        width: 100%;
+    }
+    .span_sobre {
+        margin-top: 50px;
+    }
+    .h3_box_sobre {
+        width: auto;
+        font-size: 38px;
+        margin: 50px 0;
+    }
+    .box_sobre_textos p {
+        width: auto;
+        text-align: justify;
+    }
 }
