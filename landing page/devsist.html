@@ -14,12 +14,14 @@
     <header>
         <div class="container container_header">
             <nav id="links" class="menu_header">
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#info">Desafios</a>
-                <a href="#endereco">Endereços</a>
+                <a href="#inicio" onclick="botaodomenu ()">Início</a>
+                <a href="#sobre" onclick="botaodomenu ()">Sobre</a>
+                <a href="#info" onclick="botaodomenu ()">Desafios</a>
+                <a href="#endereco" onclick="botaodomenu ()">Endereços</a>
             </nav>
-            <a class="btn_menu" href="" onclick="botaodomenu"><i class="fas fa-bars"></i></a>
+            <a class="btn_menu" href="javascript:void(0)" onclick="botaodomenu()">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
     </header>
     <main>
@@ -40,7 +42,7 @@
                     <img class="img_box_sobre" src="C:\Users\caio0\OneDrive\Documentos\landing page\landing page\imagens\imagem-section-sobre.png">
                     <div class="box_sobre_textos">
                         <span class="span_sobre">Participantes</span>
-                        <h3 class="h3sobre">Mais de 80 alunos organizados em 16 grupos</h3>
+                        <h3>Mais de 80 alunos organizados em 16 grupos</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit
@@ -78,8 +80,8 @@
             <h2>Endereço:</h2>
             <div class="box_endereco">
                 <p>Alameda Barão de Limeira, 539 Santa Cecilia, São Paulo - SP CEP: 01202-001</p>
-                <img src="C:\Users\caio0\OneDrive\Documentos\landing page\landing page\imagens\mapa.png">
             </div>
+            <img src="C:\Users\caio0\OneDrive\Documentos\landing page\landing page\imagens\mapa.png">
         </section>
     </main>
 
@@ -91,10 +93,10 @@
         function botaodomenu() {
             var menu = document.getElementById("links");
             if (menu.style.display === "flex") {
-                //esconda o menu
+                //Esconda o menu
                 menu.style.display = "none"
             } else {
-                //mostre o menu
+                //Mostre o menu
                 menu.style.display = "flex"
             }
         }
